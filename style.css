@@ -1,0 +1,28 @@
+header{width: 100vw;
+    height: calc(80000vw/1440) ;
+    background: #996B60;
+    background-repeat: no-repeat;
+    background-image:url(img/header.png);
+    background-size: 50vw;
+}
+.menu{display: flex;
+flex-direction: row;
+justify-content: flex-end;}
+.menu_link {font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.75em;
+    line-height: 1.125em;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding:2.375em 2.875em;
+    }
+.left{margin-left: auto;}
+.heading{
+        font-family: 'Liberation Serif';
+font-style: normal;
+font-size: 4.5625em;
+line-height: 6em;
+color: #FFFFFF;
+    }
