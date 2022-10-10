@@ -27,13 +27,11 @@ header{width: 100%;
 .header__menu-left{
     grid-area:menu-left;
     justify-self: start;
-    border: 1px solid black;
     padding:2em;
 }
 .header__menu-right{
     grid-area:menu-right;
     justify-self: end;
-    border: 1px solid black;
     padding:2em;
     }
 .menu_link {font-family: 'Roboto';
@@ -43,7 +41,6 @@ header{width: 100%;
     color: #FFFFFF;
     padding:2em;
     margin: 0%;
-    border: 1px solid black;
     opacity: 1;}
 .header__heading{
 grid-area:heading;    
@@ -52,7 +49,6 @@ font-style: normal;
 font-size: 4.5625em;
 line-height: calc(93/73);
 color: #FFFFFF;
-border: 1px solid black;
 align-self: end;
 padding-left: 45pt;
 padding-bottom:0;
@@ -241,7 +237,6 @@ text-align: center;
             display: flex;
             flex-direction: column;
             width: 100%;
-            border: 1px solid white;
             justify-content: flex-start;
             padding-top: 45px;
         }
@@ -260,15 +255,12 @@ text-align: center;
         .footer__link{
             padding: 10px;
             font-family: 'Roboto';
-font-style: normal;
-font-size: 0.75em;
-line-height: 1.5;
-
-letter-spacing: 1px;
-text-transform: uppercase;
-
-color: rgba(255, 255, 255, 0.6);
-
+             font-style: normal;
+             font-size: 0.75em;
+             line-height: 1.5;
+             letter-spacing: 1px;
+            text-transform: uppercase;
+           color: rgba(255, 255, 255, 0.6);
         }
 
     @media (min-width: 360px) and (max-width: 800px){
